@@ -1,0 +1,29 @@
+footer {
+	&.navbar {
+		.buttons-left {
+			width: 80%;
+		}
+
+		.nav-item {
+			font-size: 0.75rem;
+			color: rgba(255, 255, 255, 0.6);
+			display: flex;
+			align-items: center;
+
+			img {
+				width: auto;
+				height: 35px;
+				margin-right: 1.5rem;
+			}
+
+			a {
+				color: $clr-crol;
+				text-transform: none !important;
+			}
+
+			.button-icon {
+				color: #FFF;
+			}
+		}
+	}
+}

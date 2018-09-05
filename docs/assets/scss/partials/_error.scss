@@ -1,0 +1,75 @@
+.app {
+  &.error {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    left: 0;
+    background: linear-gradient(to right, $clr-primary, $clr-primaryDK);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-transition: left 0.3s ease, padding-left 0.3s ease;
+    transition: left 0.3s ease, padding-left 0.3s ease;
+    overflow: hidden;
+    .content {
+      //padding: 95px 20px 75px 20px;
+      min-height: 100vh;
+      @media (min-width: 1200px) {
+        //padding: 105px 40px 85px 40px;
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        //padding: 100px 35px 80px 35px;
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        //padding: 95px 20px 75px 20px;
+      }
+      @media (max-width: 767px) {
+        //padding: 70px 20px 70px 20px;
+      }
+      .error-card {
+        width: 550px;
+        min-height: 330px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        margin: 0;
+        .error-title-block {
+          .error-title {
+            font-size: 150px;
+            line-height: 150px;
+            font-weight: 700;
+            color: #FFF;
+            text-align: center;
+            text-shadow: rgba(61, 61, 61, 0.3) 0.5px 0.5px, rgba(61, 61, 61, 0.2) 1px 1px, rgba(61, 61, 61, 0.3) 1.5px 1.5px;
+          }
+          .error-subtitle {
+            font-weight: 100;
+            text-align: center;
+            color: #FFF;
+            font-size: 30px;
+            line-height: 42px;
+          }
+        }
+        .error-container {
+          text-align: center;
+          .btn {
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+    .sigedweb-logo {
+      color: #FFF;
+      font-size: 32px;
+      font-weight: 600;
+      display: inline-block;
+      position: fixed;
+      bottom: 10px;
+      right: 25px;
+      small {
+        opacity: .25;
+      }
+    }
+  }
+}

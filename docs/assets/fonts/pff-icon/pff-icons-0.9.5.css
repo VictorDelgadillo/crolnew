@@ -1,0 +1,1345 @@
+@font-face {
+  font-family: 'pff-icon-095';
+  src:  url('pff-icon-095.eot?lsxano');
+  src:  url('pff-icon-095.eot?lsxano#iefix') format('embedded-opentype'),
+    url('pff-icon-095.ttf?lsxano') format('truetype'),
+    url('pff-icon-095.woff?lsxano') format('woff'),
+    url('pff-icon-095.svg?lsxano#pff-icon-095') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"]  {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pff-icon-095' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pff-icon {
+  font-size: 12px;
+}
+
+.pff-icon.x2 {
+  font-size: 24px;
+}
+
+.pff-icon.x3 {
+  font-size: 36px;
+}
+
+.pff-icon.x4 {
+  font-size: 48px;
+}
+
+.pff-icon.firma {
+  color: #00ba4d;
+}
+
+.pff-icon.empresa {
+  color: #245eb2;
+}
+
+.pff-icon.lite {
+  color: #ff7900;
+}
+
+.icon-fijas:before {
+  content: "\eaad";
+}
+.icon-herramientas-34:before {
+  content: "\ea6c";
+}
+.icon-herramientas-acciones:before {
+  content: "\ea6d";
+}
+.icon-herramientas-aceptar:before {
+  content: "\ea6e";
+}
+.icon-herramientas-actualizar:before {
+  content: "\ea6f";
+}
+.icon-herramientas-ayuda:before {
+  content: "\ea70";
+}
+.icon-herramientas-cancelar:before {
+  content: "\ea71";
+}
+.icon-herramientas-deshacer:before {
+  content: "\ea72";
+}
+.icon-herramientas-digitales:before {
+  content: "\ea73";
+}
+.icon-herramientas-duplicar:before {
+  content: "\ea74";
+}
+.icon-herramientas-ejecutar:before {
+  content: "\ea94";
+}
+.icon-herramientas-eliminar-partida:before {
+  content: "\ea95";
+}
+.icon-herramientas-eliminar-registro:before {
+  content: "\ea96";
+}
+.icon-herramientas-eliminar:before {
+  content: "\ea97";
+}
+.icon-herramientas-email:before {
+  content: "\ea98";
+}
+.icon-herramientas-exportar:before {
+  content: "\ea99";
+}
+.icon-herramientas-exportar-txt:before {
+  content: "\ea9a";
+}
+.icon-herramientas-generar:before {
+  content: "\ea9b";
+}
+.icon-herramientas-guardar:before {
+  content: "\ea9c";
+}
+.icon-herramientas-importar-lista:before {
+  content: "\ea9d";
+}
+.icon-herramientas-importar:before {
+  content: "\ea9e";
+}
+.icon-herramientas-imprimir:before {
+  content: "\ea9f";
+}
+.icon-herramientas-insertar:before {
+  content: "\eaa0";
+}
+.icon-herramientas-mas:before {
+  content: "\eaa1";
+}
+.icon-herramientas-menos:before {
+  content: "\eaa2";
+}
+.icon-herramientas-modificar:before {
+  content: "\eaa3";
+}
+.icon-herramientas-nuevo:before {
+  content: "\eaa4";
+}
+.icon-herramientas-office365:before {
+  content: "\eaa5";
+}
+.icon-herramientas-poliza:before {
+  content: "\eaa6";
+}
+.icon-herramientas-previsualizar:before {
+  content: "\eaa7";
+}
+.icon-herramientas-referencia:before {
+  content: "\eaa8";
+}
+.icon-herramientas-regresar:before {
+  content: "\eaa9";
+}
+.icon-herramientas-seleccion:before {
+  content: "\eaaa";
+}
+.icon-herramientas-verificado:before {
+  content: "\eaab";
+}
+.icon-herramientas-visualizar-xml:before {
+  content: "\eaac";
+}
+.icon-listado-codigos-agrupadores-sat:before {
+  content: "\ea6b";
+}
+.icon-informacion-pago-electronico:before {
+  content: "\ea81";
+}
+.icon-panel:before {
+  content: "\ea82";
+}
+.icon-widgets:before {
+  content: "\ea8d";
+}
+.icon-catalogos:before {
+  content: "\ea8e";
+}
+.icon-procedimientos:before {
+  content: "\ea8f";
+}
+.icon-reportes:before {
+  content: "\ea90";
+}
+.icon-transacciones:before {
+  content: "\ea91";
+}
+.icon-unidad-medida-intelitran:before {
+  content: "\ea92";
+}
+.icon-unidad-medida:before {
+  content: "\ea93";
+}
+.icon-avance-importacion-productos-servicios:before {
+  content: "\ea5b";
+}
+.icon-baja-activo-fijo:before {
+  content: "\ea5c";
+}
+.icon-centro-ayuda:before {
+  content: "\ea5d";
+}
+.icon-configuracion-intelitran:before {
+  content: "\ea5e";
+}
+.icon-estado-solicitudes:before {
+  content: "\ea5f";
+}
+.icon-importar-alumnos:before {
+  content: "\ea60";
+}
+.icon-importar-excel-n:before {
+  content: "\ea61";
+}
+.icon-importar-propiedades-plantas-equipos:before {
+  content: "\ea62";
+}
+.icon-impresion-objetos:before {
+  content: "\ea63";
+}
+.icon-impuesto-cedular:before {
+  content: "\ea64";
+}
+.icon-impuestos-locales-maestros:before {
+  content: "\ea65";
+}
+.icon-indicador-despacho:before {
+  content: "\ea66";
+}
+.icon-indicador-ingresos:before {
+  content: "\ea67";
+}
+.icon-indicadores-organizacion:before {
+  content: "\ea68";
+}
+.icon-ingresos-sueldos-salarios:before {
+  content: "\ea69";
+}
+.icon-inpc:before {
+  content: "\ea6a";
+}
+.icon-listado-comunicados-sistema:before {
+  content: "\ea75";
+}
+.icon-listado-servicios:before {
+  content: "\ea76";
+}
+.icon-listado-usuarios:before {
+  content: "\ea77";
+}
+.icon-modificacion-contrasena-usuarios-despacho:before {
+  content: "\ea78";
+}
+.icon-plan-cuentas-maestro:before {
+  content: "\ea79";
+}
+.icon-recepcion-mercancia-consignacion:before {
+  content: "\ea7a";
+}
+.icon-reporte-perfiles:before {
+  content: "\ea7b";
+}
+.icon-tranferencia-contactos:before {
+  content: "\ea7c";
+}
+.icon-transferencia-informacion-almacenes:before {
+  content: "\ea7d";
+}
+.icon-transferencias-materia-prima:before {
+  content: "\ea7e";
+}
+.icon-traspaso-cuentas:before {
+  content: "\ea7f";
+}
+.icon-traspaso-entre-almacenes:before {
+  content: "\ea80";
+}
+.icon-valor-inventario-clasificacion:before {
+  content: "\ea83";
+}
+.icon-valor-inventario:before {
+  content: "\ea84";
+}
+.icon-vendedores:before {
+  content: "\ea85";
+}
+.icon-venta-clasificacion:before {
+  content: "\ea86";
+}
+.icon-ventas_producto-clasificacion:before {
+  content: "\ea87";
+}
+.icon-cfdi-excedente-despacho:before {
+  content: "\ea88";
+}
+.icon-ventas-clientes-productos:before {
+  content: "\ea89";
+}
+.icon-ventas-clientes:before {
+  content: "\ea8a";
+}
+.icon-ventas-mes:before {
+  content: "\ea8b";
+}
+.icon-ventas-productos:before {
+  content: "\ea8c";
+}
+.icon-metas-indicadores:before {
+  content: "\ea29";
+}
+.icon-monedas:before {
+  content: "\ea2a";
+}
+.icon-movimientos-cancelados-sin-poliza-cancelacion:before {
+  content: "\ea2b";
+}
+.icon-municipio:before {
+  content: "\ea2c";
+}
+.icon-nif:before {
+  content: "\ea2d";
+}
+.icon-nombre-formato-cheques:before {
+  content: "\ea2e";
+}
+.icon-organizaciones:before {
+  content: "\ea2f";
+}
+.icon-paises:before {
+  content: "\ea30";
+}
+.icon-perfiles:before {
+  content: "\ea31";
+}
+.icon-plan-cuentas-asociados-codigos-agrupadores:before {
+  content: "\ea32";
+}
+.icon-plan-cuentas-codigos-agrupadores:before {
+  content: "\ea33";
+}
+.icon-poliza-concepto-noafectable:before {
+  content: "\ea34";
+}
+.icon-porcentaje-deduccion-fiscal-activos-fijos:before {
+  content: "\ea35";
+}
+.icon-porcentaje-depreciacion-activos-fijos:before {
+  content: "\ea36";
+}
+.icon-regimenes-fiscales:before {
+  content: "\ea37";
+}
+.icon-registro-actividades:before {
+  content: "\ea38";
+}
+.icon-registro-notas-devolucion-clientes:before {
+  content: "\ea39";
+}
+.icon-relacion-documentos-registrados:before {
+  content: "\ea3a";
+}
+.icon-relacion-poliza-diferencia-cargo-abonos-objeto:before {
+  content: "\ea3b";
+}
+.icon-relacion-poliza-diferencia-cargo-abonos:before {
+  content: "\ea3c";
+}
+.icon-reporte-actividades-organizacion:before {
+  content: "\ea3d";
+}
+.icon-reporte-compromisos:before {
+  content: "\ea3e";
+}
+.icon-reporte-errores-organizacion:before {
+  content: "\ea3f";
+}
+.icon-reporte-relacion-documento-obra:before {
+  content: "\ea40";
+}
+.icon-reporte-solicitud-servicio-despacho:before {
+  content: "\ea41";
+}
+.icon-reporte-solicitud-servicio-objeto:before {
+  content: "\ea42";
+}
+.icon-reporte-transacciones-registradas-organizacion:before {
+  content: "\ea43";
+}
+.icon-reportes-autotran:before {
+  content: "\ea44";
+}
+.icon-reportes-cambios-catalogo:before {
+  content: "\ea45";
+}
+.icon-resumen-solicitudes-servicio:before {
+  content: "\ea46";
+}
+.icon-salarios-minimos:before {
+  content: "\ea47";
+}
+.icon-servicios:before {
+  content: "\ea48";
+}
+.icon-solicitudes-servicio-activas-ejecutivos-cuenta:before {
+  content: "\ea49";
+}
+.icon-solicitudes-servicio-activas:before {
+  content: "\ea4a";
+}
+.icon-subreportes:before {
+  content: "\ea4b";
+}
+.icon-tipo-dividendo-utilidad-distribuida:before {
+  content: "\ea4c";
+}
+.icon-tipos-activos-fijos:before {
+  content: "\ea4d";
+}
+.icon-tipos-empleados:before {
+  content: "\ea4e";
+}
+.icon-tipos-informes-financieros-fiscales:before {
+  content: "\ea4f";
+}
+.icon-tipos-salarios:before {
+  content: "\ea50";
+}
+.icon-transacciones-dia-anterior:before {
+  content: "\ea51";
+}
+.icon-transacciones-pendientes-contabilizar:before {
+  content: "\ea52";
+}
+.icon-transferencia-clasificacion-costos-gastos:before {
+  content: "\ea53";
+}
+.icon-transferencia-conceptos-maestros:before {
+  content: "\ea54";
+}
+.icon-transferencia-proyectos:before {
+  content: "\ea55";
+}
+.icon-ultimas-actualizaciones:before {
+  content: "\ea56";
+}
+.icon-usuarios-implementadores:before {
+  content: "\ea57";
+}
+.icon-usuarios:before {
+  content: "\ea58";
+}
+.icon-vacaciones:before {
+  content: "\ea59";
+}
+.icon-vendedores-distribuidos:before {
+  content: "\ea5a";
+}
+.icon-inversion-neta:before {
+  content: "\e900";
+}
+.icon-libro-auxiliar-mayor:before {
+  content: "\e901";
+}
+.icon-libro-diario:before {
+  content: "\e902";
+}
+.icon-libro-mayor:before {
+  content: "\e903";
+}
+.icon-libros-bancarios:before {
+  content: "\e904";
+}
+.icon-lista-precios:before {
+  content: "\e905";
+}
+.icon-listado-activos-fijos:before {
+  content: "\e906";
+}
+.icon-listado-articulos-importacion-existencias:before {
+  content: "\e907";
+}
+.icon-listado-clasificacion-costos-gastos:before {
+  content: "\e908";
+}
+.icon-listado-clasificacion-productos-servicios:before {
+  content: "\e909";
+}
+.icon-listado-comunicados:before {
+  content: "\e90a";
+}
+.icon-listado-contactos:before {
+  content: "\e90b";
+}
+.icon-listado-cuentas:before {
+  content: "\e90c";
+}
+.icon-listado-moneda-tipo-cambio:before {
+  content: "\e90d";
+}
+.icon-listado-precios:before {
+  content: "\e90e";
+}
+.icon-listado-productos-servicios:before {
+  content: "\e90f";
+}
+.icon-listado-proveedores:before {
+  content: "\e910";
+}
+.icon-listado-proyectos:before {
+  content: "\e911";
+}
+.icon-listado-sucursales:before {
+  content: "\e912";
+}
+.icon-listado-unidades-medida:before {
+  content: "\e913";
+}
+.icon-log-usuarios:before {
+  content: "\e914";
+}
+.icon-marcas:before {
+  content: "\e915";
+}
+.icon-margen-ventas-clientes:before {
+  content: "\e916";
+}
+.icon-margen-ventas-producto-clasificacion:before {
+  content: "\e917";
+}
+.icon-modificacion-lista-precios:before {
+  content: "\e918";
+}
+.icon-moneda-tipo-cambio:before {
+  content: "\e919";
+}
+.icon-movimientos-almacen:before {
+  content: "\e91a";
+}
+.icon-movimientos-bancarios_noreconocidos:before {
+  content: "\e91b";
+}
+.icon-movimientos-bancarios-sinasignar:before {
+  content: "\e91c";
+}
+.icon-movimientos-bancarios:before {
+  content: "\e91d";
+}
+.icon-movimientos-cuentas:before {
+  content: "\e91e";
+}
+.icon-movimientos-inventarios:before {
+  content: "\e91f";
+}
+.icon-nota-cargo:before {
+  content: "\e920";
+}
+.icon-nota-credito-clientes:before {
+  content: "\e921";
+}
+.icon-nota-credito-proveedores:before {
+  content: "\e922";
+}
+.icon-nota-devolucion-cliente:before {
+  content: "\e923";
+}
+.icon-nota-devolucion-proveedores:before {
+  content: "\e924";
+}
+.icon-nota-hospedaje:before {
+  content: "\e925";
+}
+.icon-nota-remision:before {
+  content: "\e926";
+}
+.icon-nota-venta:before {
+  content: "\e927";
+}
+.icon-obra-cobrada-ejecutar-sobre-proyectos-proceso:before {
+  content: "\e928";
+}
+.icon-orden-compra:before {
+  content: "\e929";
+}
+.icon-otras-cuentas-cobrar:before {
+  content: "\e92a";
+}
+.icon-otros-cobros-anticipados:before {
+  content: "\e92b";
+}
+.icon-otros-pagos-anticipados:before {
+  content: "\e92c";
+}
+.icon-pago-especie-permuta:before {
+  content: "\e92d";
+}
+.icon-pago-terceros:before {
+  content: "\e92e";
+}
+.icon-pedido-cliente:before {
+  content: "\e92f";
+}
+.icon-periodos-nomina:before {
+  content: "\e930";
+}
+.icon-plan-cuentas:before {
+  content: "\e931";
+}
+.icon-politicas-consumo:before {
+  content: "\e932";
+}
+.icon-poliza-ajustes-fluctuacion-cambiaria:before {
+  content: "\e933";
+}
+.icon-poliza-contable:before {
+  content: "\e934";
+}
+.icon-porcentajes-propiedades-plantas-equipos:before {
+  content: "\e935";
+}
+.icon-prestamos-otorgados:before {
+  content: "\e936";
+}
+.icon-prestamos-recibidos:before {
+  content: "\e937";
+}
+.icon-productos-servicios:before {
+  content: "\e938";
+}
+.icon-propiedades-plantas-equipos:before {
+  content: "\e939";
+}
+.icon-proveedores:before {
+  content: "\e93a";
+}
+.icon-provision-impuestos:before {
+  content: "\e93b";
+}
+.icon-provisiones:before {
+  content: "\e93c";
+}
+.icon-proyectos:before {
+  content: "\e93d";
+}
+.icon-puestos:before {
+  content: "\e93e";
+}
+.icon-recibo-arrendamiento:before {
+  content: "\e93f";
+}
+.icon-recibo-donativos:before {
+  content: "\e940";
+}
+.icon-registro-costo-venta:before {
+  content: "\e941";
+}
+.icon-registro-factura-hospedaje:before {
+  content: "\e942";
+}
+.icon-registro-factura-obra:before {
+  content: "\e943";
+}
+.icon-registro-nomina-finiquito:before {
+  content: "\e944";
+}
+.icon-registro-nota-credito-clientes:before {
+  content: "\e945";
+}
+.icon-registro-presupuestos:before {
+  content: "\e946";
+}
+.icon-registro-ventas:before {
+  content: "\e947";
+}
+.icon-relacion-abonos-clientes:before {
+  content: "\e948";
+}
+.icon-relacion-documento-concepto:before {
+  content: "\e949";
+}
+.icon-relacion-documentos-compras-gastos:before {
+  content: "\e94a";
+}
+.icon-relacion-documentos-concepto-venta:before {
+  content: "\e94b";
+}
+.icon-relacion-documentos-nodeducibles:before {
+  content: "\e94c";
+}
+.icon-relacion-documentos-ventas:before {
+  content: "\e94d";
+}
+.icon-relacion-gastos-concepto:before {
+  content: "\e94e";
+}
+.icon-relacion-pago-proveedores:before {
+  content: "\e94f";
+}
+.icon-relaciones-analiticas:before {
+  content: "\e950";
+}
+.icon-rentas-cobradas-anticipado:before {
+  content: "\e951";
+}
+.icon-rentas-pagadas-anticipado:before {
+  content: "\e952";
+}
+.icon-reporte-analitico-saldos:before {
+  content: "\e953";
+}
+.icon-requisiciones:before {
+  content: "\e954";
+}
+.icon-salarios-minimos-vigentes:before {
+  content: "\e955";
+}
+.icon-listado-clientes:before {
+  content: "\e956";
+}
+.icon-modificacion-contrasena-usuarios:before {
+  content: "\e957";
+}
+.icon-saldo-actual:before {
+  content: "\e958";
+}
+.icon-saldo-cartera-clientes:before {
+  content: "\e959";
+}
+.icon-saldos-bancarios:before {
+  content: "\e95a";
+}
+.icon-saldos-cuentas-mes:before {
+  content: "\e95b";
+}
+.icon-saldos-cuentas:before {
+  content: "\e95c";
+}
+.icon-saldos-proveedores-mes:before {
+  content: "\e95d";
+}
+.icon-salida-multiple-almacen:before {
+  content: "\e95e";
+}
+.icon-seguros-finanzas-pagadas-anticipado:before {
+  content: "\e95f";
+}
+.icon-servicio-cliente:before {
+  content: "\e960";
+}
+.icon-sucursales:before {
+  content: "\e961";
+}
+.icon-cargos-proveedor:before {
+  content: "\e962";
+}
+.icon-catalogo-empleados:before {
+  content: "\e963";
+}
+.icon-catalogo-oficios:before {
+  content: "\e964";
+}
+.icon-cfdi-expedidos:before {
+  content: "\e965";
+}
+.icon-cheques-devueltos:before {
+  content: "\e966";
+}
+.icon-clasificacion-productos-servicios:before {
+  content: "\e967";
+}
+.icon-clasificadores-costo-gasto:before {
+  content: "\e968";
+}
+.icon-clientes:before {
+  content: "\e969";
+}
+.icon-codigos-postales:before {
+  content: "\e96a";
+}
+.icon-comision-vendedores:before {
+  content: "\e96b";
+}
+.icon-comparativo-anual-compras-gastos:before {
+  content: "\e96c";
+}
+.icon-compras-producto-clasificacion:before {
+  content: "\e96d";
+}
+.icon-compras-producto-y-clasificacion:before {
+  content: "\e96e";
+}
+.icon-comprobante-pago-parcialidades:before {
+  content: "\e96f";
+}
+.icon-conceptos-deduccion:before {
+  content: "\e970";
+}
+.icon-conceptos-gastos:before {
+  content: "\e971";
+}
+.icon-conceptos-percepcion:before {
+  content: "\e972";
+}
+.icon-conciliacion-bancaria:before {
+  content: "\e973";
+}
+.icon-configuracion-autotran:before {
+  content: "\e974";
+}
+.icon-contactos:before {
+  content: "\e975";
+}
+.icon-contro-folios:before {
+  content: "\e976";
+}
+.icon-cotizacion-compra:before {
+  content: "\e977";
+}
+.icon-cuentas-caja-bancos:before {
+  content: "\e978";
+}
+.icon-cuentas-cobrar:before {
+  content: "\e979";
+}
+.icon-cuentas-orden:before {
+  content: "\e97a";
+}
+.icon-cuentas-pagar:before {
+  content: "\e97b";
+}
+.icon-deduccion-activos-fijos:before {
+  content: "\e97c";
+}
+.icon-deducciones-percepciones-obra-publica:before {
+  content: "\e97d";
+}
+.icon-denominacion-monetaria:before {
+  content: "\e97e";
+}
+.icon-deposito-garantia:before {
+  content: "\e97f";
+}
+.icon-depositos-bancarios:before {
+  content: "\e980";
+}
+.icon-depresiacion-contable:before {
+  content: "\e981";
+}
+.icon-derechos-fiduciarios:before {
+  content: "\e982";
+}
+.icon-detallado-comision-vendedores:before {
+  content: "\e983";
+}
+.icon-deudores-diversos:before {
+  content: "\e984";
+}
+.icon-diagrama:before {
+  content: "\e985";
+}
+.icon-diot-carga-batch:before {
+  content: "\e986";
+}
+.icon-diot:before {
+  content: "\e987";
+}
+.icon-dividendo-pagar:before {
+  content: "\e988";
+}
+.icon-documentos-cobrar:before {
+  content: "\e989";
+}
+.icon-documentos-pagar:before {
+  content: "\e98a";
+}
+.icon-efectivo-equivalente-efectivo:before {
+  content: "\e98b";
+}
+.icon-eliminar-depreciacion-deduccion-calculada:before {
+  content: "\e98c";
+}
+.icon-estado-cuenta-proveedores:before {
+  content: "\e98d";
+}
+.icon-estado-cuentas-clientes:before {
+  content: "\e98e";
+}
+.icon-estado-resultados:before {
+  content: "\e98f";
+}
+.icon-estado-situacion-financiera-12periodos:before {
+  content: "\e990";
+}
+.icon-estado-situacion-financiera-comparativos:before {
+  content: "\e991";
+}
+.icon-estado-situacion-financiera:before {
+  content: "\e992";
+}
+.icon-estados-resultados-12periodos:before {
+  content: "\e993";
+}
+.icon-estados-resultados-comparativos:before {
+  content: "\e994";
+}
+.icon-etiquetas_polizas-contables:before {
+  content: "\e995";
+}
+.icon-existencia-inventario:before {
+  content: "\e996";
+}
+.icon-exportacion-contactos:before {
+  content: "\e997";
+}
+.icon-exportacion-productos-servicios:before {
+  content: "\e998";
+}
+.icon-factoraje-financiero-cobrado-anticipado:before {
+  content: "\e999";
+}
+.icon-factura-compras-gastos:before {
+  content: "\e99a";
+}
+.icon-factura-gasolineras:before {
+  content: "\e99b";
+}
+.icon-factura-hospedaje:before {
+  content: "\e99c";
+}
+.icon-factura-obra:before {
+  content: "\e99d";
+}
+.icon-factura-venta-ieps:before {
+  content: "\e99e";
+}
+.icon-factura-venta:before {
+  content: "\e99f";
+}
+.icon-folder:before {
+  content: "\e9a0";
+}
+.icon-formas-pago:before {
+  content: "\e9a1";
+}
+.icon-gastos-sobre-compra:before {
+  content: "\e9a2";
+}
+.icon-generacion-contabilidad-electronica:before {
+  content: "\e9a3";
+}
+.icon-grafica-compras-clasificacion:before {
+  content: "\e9a4";
+}
+.icon-grafica-compras-mes:before {
+  content: "\e9a5";
+}
+.icon-grafica-ingresos-egresos:before {
+  content: "\e9a6";
+}
+.icon-grafica-ventas-clasificacion:before {
+  content: "\e9a7";
+}
+.icon-grafica-ventas-mes:before {
+  content: "\e9a8";
+}
+.icon-herramienta-generacion-facturas:before {
+  content: "\e9a9";
+}
+.icon-herramienta-movimientos-bancarios:before {
+  content: "\e9aa";
+}
+.icon-herramienta-pagos:before {
+  content: "\e9ab";
+}
+.icon-hoja-ayuda-impuestos:before {
+  content: "\e9ac";
+}
+.icon-importar-contactos:before {
+  content: "\e9ad";
+}
+.icon-importar-productos-servicios:before {
+  content: "\e9ae";
+}
+.icon-impuestos-derechos-pagar:before {
+  content: "\e9af";
+}
+.icon-impuestos-locales:before {
+  content: "\e9b0";
+}
+.icon-impuestos:before {
+  content: "\e9b1";
+}
+.icon-inasistencias:before {
+  content: "\e9b2";
+}
+.icon-informacion-organizacion:before {
+  content: "\e9b3";
+}
+.icon-informe-recuperacion-cartera:before {
+  content: "\e9b4";
+}
+.icon-ingresos-honorarios-asimilados-salarios:before {
+  content: "\e9b5";
+}
+.icon-instrumentos-financieros:before {
+  content: "\e9b6";
+}
+.icon-bitacora-sistema:before {
+  content: "\e9b7";
+}
+.icon-cargos-diversos:before {
+  content: "\e9b8";
+}
+.icon-carta-porte:before {
+  content: "\e9b9";
+}
+.icon-comparativo-ventas-anuales:before {
+  content: "\e9ba";
+}
+.icon-cotizacion-clientes:before {
+  content: "\e9bb";
+}
+.icon-depreciacion-propiedades-plantas-equipos:before {
+  content: "\e9bc";
+}
+.icon-egresos-bancarios:before {
+  content: "\e9bd";
+}
+.icon-estamos-trabajando:before {
+  content: "\e9be";
+}
+.icon-factura-venta-referencias-multiples:before {
+  content: "\e9bf";
+}
+.icon-intereses-cobrados-anticipado:before {
+  content: "\e9c0";
+}
+.icon-intereses-cobrar:before {
+  content: "\e9c1";
+}
+.icon-intereses-pagados-anticipado:before {
+  content: "\e9c2";
+}
+.icon-intereses-pagar:before {
+  content: "\e9c3";
+}
+.icon-inventario-fisico:before {
+  content: "\e9c4";
+}
+.icon-inventario-inicial:before {
+  content: "\e9c5";
+}
+.icon-activar-desactivar-transacciones:before {
+  content: "\e9c6";
+}
+.icon-actualizar-lista-precios:before {
+  content: "\e9c7";
+}
+.icon-administracion-organizaciones:before {
+  content: "\e9c8";
+}
+.icon-aguinaldos:before {
+  content: "\e9c9";
+}
+.icon-alumnos:before {
+  content: "\e9ca";
+}
+.icon-analisis-alta-organizacion:before {
+  content: "\e9cb";
+}
+.icon-analisis-cotizaciones:before {
+  content: "\e9cc";
+}
+.icon-analisis-ieps-efectivamente-cobrado:before {
+  content: "\e9cd";
+}
+.icon-analisis-ieps-efectivamente-pagado:before {
+  content: "\e9ce";
+}
+.icon-asentamientos:before {
+  content: "\e9cf";
+}
+.icon-asignacion-conceptos-contables-contactos:before {
+  content: "\e9d0";
+}
+.icon-asignacion-conceptos-contables-objetos:before {
+  content: "\e9d1";
+}
+.icon-auditoria-balanzas-comprobacion:before {
+  content: "\e9d2";
+}
+.icon-auditoria-iva-cobrado:before {
+  content: "\e9d3";
+}
+.icon-auditoria-iva-pagado:before {
+  content: "\e9d4";
+}
+.icon-auditoria-movimientos-bancarios-sinasignar:before {
+  content: "\e9d5";
+}
+.icon-auditoria-saldos:before {
+  content: "\e9d6";
+}
+.icon-autorizacion-folios:before {
+  content: "\e9d7";
+}
+.icon-autotran-reporte-cfdi-procesados:before {
+  content: "\e9d8";
+}
+.icon-balanza-comprobacion-concentrada:before {
+  content: "\e9d9";
+}
+.icon-bancos:before {
+  content: "\e9da";
+}
+.icon-bloqueo-ejercicio-periodo:before {
+  content: "\e9db";
+}
+.icon-calculo-costo-venta-formula:before {
+  content: "\e9dc";
+}
+.icon-catalogo-periodos-pagos:before {
+  content: "\e9dd";
+}
+.icon-certificados-digitales:before {
+  content: "\e9de";
+}
+.icon-cfdi-expedido-despacho:before {
+  content: "\e9df";
+}
+.icon-cierre-ejercicios:before {
+  content: "\e9e0";
+}
+.icon-ciudad:before {
+  content: "\e9e1";
+}
+.icon-clasificacion-organizaciones:before {
+  content: "\e9e2";
+}
+.icon-codigos-agrupadores-cuentas-sat:before {
+  content: "\e9e3";
+}
+.icon-comunicados-despacho:before {
+  content: "\e9e4";
+}
+.icon-comunicados-sistema:before {
+  content: "\e9e5";
+}
+.icon-comunicados-usuarios-despacho:before {
+  content: "\e9e6";
+}
+.icon-conceptos-contables-despacho:before {
+  content: "\e9e7";
+}
+.icon-conceptos-contables-maestros:before {
+  content: "\e9e8";
+}
+.icon-conceptos-saldos-iniciales:before {
+  content: "\e9e9";
+}
+.icon-consumo-mes:before {
+  content: "\e9ea";
+}
+.icon-contactos-maestros:before {
+  content: "\e9eb";
+}
+.icon-contratos:before {
+  content: "\e9ec";
+}
+.icon-control-seguimiento-compromisos:before {
+  content: "\e9ed";
+}
+.icon-cuotas-obrero-patronales:before {
+  content: "\e9ee";
+}
+.icon-descripcion-codigos-agrupadores:before {
+  content: "\e9ef";
+}
+.icon-descripcion-informes-financieros-fiscales:before {
+  content: "\e9f0";
+}
+.icon-despachos:before {
+  content: "\e9f1";
+}
+.icon-abonos-clientes:before {
+  content: "\e9f2";
+}
+.icon-abonos-diversos:before {
+  content: "\e9f3";
+}
+.icon-abonos-proveedor:before {
+  content: "\e9f4";
+}
+.icon-acreedores-diversos:before {
+  content: "\e9f5";
+}
+.icon-activar-desactivar-lista-precios:before {
+  content: "\e9f6";
+}
+.icon-activos-fijos-deduccion-saldo-inicial:before {
+  content: "\e9f7";
+}
+.icon-activos-fijos-depreciacion-saldo-inicial:before {
+  content: "\e9f8";
+}
+.icon-activos-fijos:before {
+  content: "\e9f9";
+}
+.icon-almacenes:before {
+  content: "\e9fa";
+}
+.icon-analisis-isr-retenido-pagar:before {
+  content: "\e9fb";
+}
+.icon-analisis-isr-retenido-recuperar:before {
+  content: "\e9fc";
+}
+.icon-analisis-iva-cobrado:before {
+  content: "\e9fd";
+}
+.icon-analisis-iva-pagado-tasa:before {
+  content: "\e9fe";
+}
+.icon-analisis-iva-pagado:before {
+  content: "\e9ff";
+}
+.icon-analisis-iva-retenido-pagar:before {
+  content: "\ea00";
+}
+.icon-analisis-iva-retenido-recuperar:before {
+  content: "\ea01";
+}
+.icon-analisis-movimientos-clientes:before {
+  content: "\ea02";
+}
+.icon-analisis-movimientos-proveedor:before {
+  content: "\ea03";
+}
+.icon-anticipo-clientes:before {
+  content: "\ea04";
+}
+.icon-anticipo-cuentas-rendimiento-utilidades:before {
+  content: "\ea05";
+}
+.icon-anticipo-proveedores:before {
+  content: "\ea06";
+}
+.icon-anticipos-salarios:before {
+  content: "\ea07";
+}
+.icon-antiguedad-saldos-clientes:before {
+  content: "\ea08";
+}
+.icon-antiguedad-saldos-proveedor:before {
+  content: "\ea09";
+}
+.icon-aplicar-desaplicar-polizas-manuales:before {
+  content: "\ea0a";
+}
+.icon-arrendamiento-capitalizado:before {
+  content: "\ea0b";
+}
+.icon-arrendamiento-financiero-cobrado-anticipado:before {
+  content: "\ea0c";
+}
+.icon-arrendamiento-financiero-pagado-anticipado:before {
+  content: "\ea0d";
+}
+.icon-asignacion-conceptos-contactos:before {
+  content: "\ea0e";
+}
+.icon-asignacion-contratos-conceptos-contables:before {
+  content: "\ea0f";
+}
+.icon-asignacion-formato-obra-publica:before {
+  content: "\ea10";
+}
+.icon-asignacion-vendedor:before {
+  content: "\ea11";
+}
+.icon-asimilados-asalarios:before {
+  content: "\ea12";
+}
+.icon-atencion-solicitudes-responsable:before {
+  content: "\ea13";
+}
+.icon-auxiliar-movimientos-productos:before {
+  content: "\ea14";
+}
+.icon-auxiliar-movimientos-proveedores:before {
+  content: "\ea15";
+}
+.icon-cargo-clientes:before {
+  content: "\ea16";
+}
+.icon-duplicar-contactos-maestros:before {
+  content: "\ea17";
+}
+.icon-estado-actual-servicios-prestados:before {
+  content: "\ea18";
+}
+.icon-estado:before {
+  content: "\ea19";
+}
+.icon-formas-comunicacion:before {
+  content: "\ea1a";
+}
+.icon-formato-cheques:before {
+  content: "\ea1b";
+}
+.icon-guia-usuarios:before {
+  content: "\ea1c";
+}
+.icon-historico-organizaciones:before {
+  content: "\ea1d";
+}
+.icon-historico-tipo-cambio:before {
+  content: "\ea1e";
+}
+.icon-hoja-produccion-activos-biologicos:before {
+  content: "\ea1f";
+}
+.icon-recibo-honorarios:before {
+  content: "\ea20";
+}
+.icon-auxiliar-nomina-asimilados:before {
+  content: "\ea21";
+}
+.icon-avisos:before {
+  content: "\ea22";
+}
+.icon-baja-usuarios:before {
+  content: "\ea23";
+}
+.icon-balance-inicial:before {
+  content: "\ea24";
+}
+.icon-balanza-comprobacion:before {
+  content: "\ea25";
+}
+.icon-calculo-fluctuacion-cambiaria:before {
+  content: "\ea26";
+}
+.icon-captura-rapida-activo-fijo:before {
+  content: "\ea27";
+}
+.icon-caracteristicas-activo-fijo:before {
+  content: "\ea28";
+}
+

@@ -1,0 +1,230 @@
+﻿
+.navbar {
+	padding: 0.5rem;
+	max-height: 56px;
+	background: $clr-carbon;
+
+	.navbar-brand {
+		position: relative;
+		z-index: 1;
+	}
+
+	.buttons-left,
+	.buttons-right {
+		width: 20%;
+		display: inline-flex;
+
+		.navbar-nav {
+			display: inline-flex;
+			flex-flow: row;
+
+			.nav-item {
+				.nav-link, .navbar-toggler {
+					font-size: 14px;
+					font-weight: 400;
+					height: 38px;
+					padding: 5px 10px;
+					text-transform: uppercase;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					transition: background-color 0.3s ease;
+					border-radius: 0.25rem;
+					position: relative;
+					background-color: transparent;
+					border: none;
+					cursor: pointer;
+
+					&.button-icon {
+						font-size: 22px;
+
+						&.active {
+							color: $clr-crol;
+						}
+
+						i {
+							//font-weight: 400;
+						}
+
+						.badge {
+							font-size: 10px;
+							position: absolute;
+							top: -2px;
+							right: -2px;
+						}
+					}
+
+					.user-image {
+						width: 38px;
+						height: 38px;
+						border-radius: 50%;
+						background-position: center;
+						background-size: contain;
+						border: 2px solid $clr-crol;
+					}
+
+					.user-info {
+						display: inline-flex;
+						flex-flow: column;
+						justify-content: center;
+						align-items: flex-end;
+						margin-right: 1rem;
+
+						span {
+							font-size: 15px;
+							white-space: nowrap;
+							color: #FFF;
+							margin: 0;
+							text-transform: none;
+						}
+					}
+
+					.store-logo {
+						width: 60px;
+						height: 46px;
+						background-position: center;
+						background-size: contain;
+						background-repeat: no-repeat;
+						filter: invert(100%);
+						-webkit-filter: invert(100%);
+					}
+
+					.store-info {
+						display: inline-flex;
+						flex-flow: column;
+						justify-content: center;
+						align-items: flex-start;
+						margin-left: 1rem;
+
+
+						h5 {
+							font-size: 14px;
+							white-space: nowrap;
+							color: $clr-crol;
+							margin: 0;
+						}
+
+						h3 {
+							font-size: 20px;
+							font-weight: 600;
+							color: #FFF;
+							white-space: nowrap;
+							margin: 0;
+
+							i {
+								margin-left: 1rem;
+								font-size: 14px;
+								opacity: 0.6;
+							}
+						}
+					}
+
+					&:hover {
+						color: #FFF;
+						background-color: rgba(0, 0, 0, 0.15);
+					}
+
+					.overlay {
+						position: fixed;
+						top: 0;
+						z-index: 5;
+						overflow: hidden;
+
+						.overlay__ripple {
+							cursor: default;
+							position: absolute;
+							top: 0;
+							width: 38px;
+							height: 38px;
+							border-radius: 38px;
+							background: $clr-carbonDK;
+							opacity: 0;
+							transform-origin: 0 0;
+							backface-visibility: hidden;
+							transform: scale(0) translate(-50%, -50%);
+							-webkit-transition: transform 0.6s cubic-bezier(0.7, 0, 0.6, 0.8), opacity 0.6s ease-in-out;
+							transition: transform 0.6s cubic-bezier(0.7, 0, 0.6, 0.8), opacity 0.6s ease-in-out;
+						}
+					}
+
+					&:not(.collapsed) {
+						.overlay {
+							bottom: 0;
+
+							.overlay__ripple {
+								opacity: 0.5;
+								transform: scale(200) translate(-50%, -50%);
+							}
+						}
+					}
+				}
+
+				.button-store {
+					width: auto;
+					height: 46px;
+					//padding: 0 !important;
+					padding: 0 0.75rem !important;
+
+					&:hover {
+						//background-color: transparent;
+					}
+				}
+
+				.button-user {
+					//padding: 0 !important;
+					padding: 0 0.75rem !important;
+
+					&:hover {
+						//background-color: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	.buttons-left {
+		.navbar-nav {
+			.nav-item {
+				.nav-link, .navbar-toggler {
+					.overlay {
+						left: 0;
+
+						.overlay__ripple {
+							left: 0;
+						}
+					}
+
+					&:not(.collapsed) {
+						.overlay {
+							right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.buttons-right {
+		justify-content: flex-end;
+
+		.navbar-nav {
+			.nav-item {
+				.nav-link, .navbar-toggler {
+					.overlay {
+						right: 0;
+
+						.overlay__ripple {
+							right: 0;
+						}
+					}
+
+					&:not(.collapsed) {
+						.overlay {
+							left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

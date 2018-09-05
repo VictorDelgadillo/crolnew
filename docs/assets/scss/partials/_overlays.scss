@@ -1,0 +1,29 @@
+
+
+/* OVERLAYS
+============================================== */
+.overlay {
+  z-index: 1;
+  &:after {
+    content:"";
+    //background-color: rgba(0,0,0,0.6);
+    background: linear-gradient(135deg, transparentize($clr-carbonLT, .5), transparentize($clr-carbon, .5));
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  &.overlay-carbon {
+    &:after {
+      background: linear-gradient(135deg, transparentize($clr-carbonDK, .5), transparentize($clr-black, .5));
+    }
+  }
+  &.overlay-primary {
+    &:after {
+      background: linear-gradient(135deg, transparentize($clr-primary, .5), transparentize($clr-primaryDK, .5));
+    }
+  }
+}

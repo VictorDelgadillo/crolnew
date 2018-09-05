@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900');
+
+$font-primary: 'Muli', 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+/*  TYPOGRAPHY
+============================================== */
+a {
+  color: inherit;
+  cursor: pointer;
+  outline: 0;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $clr-carbonDK;
+  font-weight: 400;
+  display: block;
+  line-height: 1;
+}
+
+.text {
+  &-primary {
+    color: $clr-primary !important;
+    &DK {
+      color: $clr-primaryDK !important;
+    }
+  }
+  &-warning {
+    color: $clr-warning !important;
+    &DK {
+      color: $clr-warningDK !important;
+    }
+  }
+  &-danger {
+    color: $clr-danger !important;
+    &DK {
+      color: $clr-dangerDK !important;
+    }
+  }
+}
